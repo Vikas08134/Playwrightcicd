@@ -82,7 +82,7 @@ test('Locating child elements', async ({ page }) => {
 
 })
 
-test.only('Locating parent elements', async ({ page }) => {
+test('Locating parent elements', async ({ page }) => {
     await page.getByText('Form Layouts').click()
 
     // await page.locator('nb-card', {hasText: 'Using the Grid'}).getByRole('button', {name: 'Sign in'}).click()
@@ -127,7 +127,7 @@ test('Reusing locators', async ({ page }) => {
 
 })
 
-test.only('Extracting values', async ({ page }) => {
+test('Extracting values', async ({ page }) => {
     await page.getByText('Form Layouts').click()
 
     const basicForm = page.locator('nb-card', {hasText: 'Basic form'})
