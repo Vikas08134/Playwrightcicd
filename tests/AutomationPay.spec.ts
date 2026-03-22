@@ -44,4 +44,5 @@ test('Mouse Hover', async ({page}) => {
 
     await page.goto("http://127.0.0.1:5500/practice-websites/automationpy.html");
     await page.getByRole('button', { name: 'Point Me' }).hover();
+    await page.pause();
 })
