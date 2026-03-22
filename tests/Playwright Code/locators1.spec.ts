@@ -10,7 +10,7 @@ toBe() - Behavior
 toHave() - value
 */
 
-test.only('Playwright in-built locators', async ({ page }) => {
+test('Playwright in-built locators', async ({ page }) => {
     await page.goto('https://demo.nopcommerce.com/')
 
     let logo: Locator = page.getByAltText('nopCommerce demo store')
