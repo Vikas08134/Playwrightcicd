@@ -12,5 +12,6 @@ test('practice locators', async({page})=>{
     await email.fill('vikasshed@gmail.com');
     await page.locator('nb-card').filter({has:page.locator('nb-checkbox')}).filter({hasText: 'Remember me'}).click();
     page.pause();
+  
 
 })

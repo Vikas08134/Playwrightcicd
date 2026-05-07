@@ -22,7 +22,7 @@ test('Handle Child window hrm', async ({ browser }) => {
     await newPage.waitForLoadState();
 
     console.log(await newPage.title());
-    await expect(newPage).toHaveTitle(/Human Resources Management Software/);
+    await expect(newPage).toHaveTitle("OrangeHRM: All in One HR Software for Businesses");
     
     await newPage.pause();
 });

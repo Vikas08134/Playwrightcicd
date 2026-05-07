@@ -17,7 +17,9 @@ test('Learnlocators', async ({ page }) => {
     await page.getByRole('link', { name: 'Nokia lumia 1520' }).click();
     await page.getByRole('link', { name: 'Add to cart' }).click();
 
-    await page.pause();
+    await page.pause()
+
+   
 
 
 })
