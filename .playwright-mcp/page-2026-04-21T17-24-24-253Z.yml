@@ -1,0 +1,24 @@
+- generic [ref=e2]:
+  - img "Maryland Department of Labor , Licensing and Regulation" [ref=e4]
+  - generic:
+    - generic [ref=e5]:
+      - generic [ref=e6]: "Username :"
+      - generic "Username" [ref=e7]:
+        - textbox [active] [ref=e8]
+    - generic [ref=e9]:
+      - generic [ref=e10]: "Password :"
+      - generic "Password" [ref=e11]:
+        - textbox "Password :" [ref=e12]
+    - generic [ref=e13]:
+      - checkbox "Remember Me" [ref=e14]
+      - text: Remember Me
+      - link "Forgot Username" [ref=e16] [cursor=pointer]:
+        - /url: /RebeaconStaff/Account/ForgotUsername
+      - link "Forgot Password" [ref=e18] [cursor=pointer]:
+        - /url: /RebeaconStaff/Account/ResetPassword
+    - generic [ref=e20]:
+      - checkbox "Web Accessibility Mode for Visually Impaired" [ref=e21]
+      - generic [ref=e22]:
+        - text: Web Accessibility Mode
+        - text: for Visually Impaired
+    - button "Login" [ref=e24] [cursor=pointer]
